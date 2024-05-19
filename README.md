@@ -15,8 +15,12 @@ git clone https://github.com/HalcyonAlcedo/karin-plugin-auto-command.git ./plugi
 
 ## 配置
 
+> 推荐使用 [Karin Manage](https://github.com/HalcyonAlcedo/karin-plugin-manage) 进行配置
+
 根据[星火API接入](https://xinghuo.xfyun.cn/sparkapi)将`AppId`、`APISecret`、`APIKey`填入配置文件
+
 领取免费试用的模型套餐
+
 根据领取的模型套餐类型设置`Domain`模型，默认为V3.0
 
 ## 开发调试
