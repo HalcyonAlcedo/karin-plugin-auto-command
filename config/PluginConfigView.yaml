@@ -1,0 +1,41 @@
+-
+  # 配置文件描述
+  name: 星火配置
+  # 配置文件名
+  file: spark.yaml
+  # 视图信息
+  view:
+    -
+      key: 模型
+      comment: 星火调用模型
+      path: 'Domain'
+      type: 'select'
+      multiple: false
+      item:
+        -
+          name: 星火V3.5
+          value: generalv3.5
+        -
+          name: 星火V3
+          value: generalv3
+        -
+          name: 星火V2
+          value: generalv2
+        -
+          name: 星火V1.5
+          value: general
+    -
+      key: 应用ID
+      comment: 星火应用ID
+      path: 'AppId'
+      type: 'text'
+    -
+      key: APISecret
+      comment: 星火Secret
+      path: 'APISecret'
+      type: 'text'
+    -
+      key: APIKey
+      comment: 星火Key
+      path: 'APIKey'
+      type: 'text'
