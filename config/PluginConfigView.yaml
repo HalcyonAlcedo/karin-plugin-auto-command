@@ -13,16 +13,16 @@
       multiple: false
       item:
         -
-          name: 星火V3.5
+          name: Spark3.5 Max
           value: generalv3.5
         -
-          name: 星火V3
+          name: Spark Pro
           value: generalv3
         -
-          name: 星火V2
+          name: Spark V2.0
           value: generalv2
         -
-          name: 星火V1.5
+          name: Spark Lite
           value: general
     -
       key: 应用ID
