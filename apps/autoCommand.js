@@ -1,6 +1,5 @@
 import lodash from 'lodash'
-import { plugin, segment, Bot, KarinMessage } from '#Karin'
-import loader from '../../../lib/plugins/loader.js'
+import { plugin, segment, Bot, KarinMessage, pluginLoader as loader } from '#Karin'
 import SparkClient from '../lib/spark/client.js'
 import Cfg from '../lib/config/config.js'
 
